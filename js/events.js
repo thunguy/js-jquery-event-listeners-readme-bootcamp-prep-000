@@ -8,8 +8,8 @@ function getIt() {
 }
 
 function frameIt() {
-  $('.tasty').on('load', function() {
-  return
+  $('img').on('load', function() {
+  return 
   })
 }
 
