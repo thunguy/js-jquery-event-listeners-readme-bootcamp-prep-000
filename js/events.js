@@ -13,7 +13,10 @@ function frameIt() {
   })
 }
 
-$().('keydown', function())
+function pressIt() {
+  $("form").on('keydown', function() {
+    if ($())
+  })
 $(document).ready(function(){
 
 // call functions here
