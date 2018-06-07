@@ -9,6 +9,7 @@ $('.tasty').on('load', function frameIt() {
   return
 }
 
+$().('keydown', function())
 $(document).ready(function(){
 
 // call functions here
