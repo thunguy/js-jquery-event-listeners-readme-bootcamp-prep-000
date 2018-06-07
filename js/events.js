@@ -6,7 +6,7 @@ $('p').on('click', function getIt() {
 })
 
 $('.tasty').on('load', function frameIt() {
-  
+  return
 }
 
 $(document).ready(function(){
