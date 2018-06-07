@@ -9,7 +9,7 @@ function getIt() {
 
 function frameIt() {
   $('img').on('load', function() {
-  return $('.tasty').append('<img src="')
+  return $('.tasty').append('<img src="https://s3.amazonaws.com/after-school-assets/minion-tongue.jpg"/>')
   })
 }
 
