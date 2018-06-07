@@ -1,12 +1,16 @@
 //define functions here
 
-$('p').on('click', function getIt() {
+function getIt() {
+  $('p').on('click', function() {
   alert('Hey!');
   return;
-})
+  })
+}
 
-$('.tasty').on('load', function frameIt() {
+function frameIt() {
+  $('.tasty').on('load', function() {
   return
+  })
 }
 
 $().('keydown', function())
