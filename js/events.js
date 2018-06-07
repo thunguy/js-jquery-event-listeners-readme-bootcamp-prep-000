@@ -9,7 +9,7 @@ function getIt() {
 
 function frameIt() {
   $('img').on('load', function() {
-  return $('img').attr('.tasty')
+  return $('img').attr(".tasty")
   })
 }
 
